@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Base</title>
+
+
+
+        <!--Essa Keywords são as palavras que corespondem as buscam no google, que eu quero corresponder-->
+        <meta name="Keywords" content="Substitua">
+        <!--Essa descrição abaixo é a que aparece no google-->
+        <meta name="description" content="Substitua">
+        <!--Aqui diz se quero aparecer no google ou não ("index, follow"=sim e subpáginas - "noindex, follow"=não - "index, nofollow" =só esta página)-->
+        <meta name="robots" content="index, follow">
+        <!--Aqui serve para indicar a url canonica quando eu tenho mais de um domínio-->
+        <link rel="canonica!" href="subistituir por url">
+        <meta name="author" content="Dev Humberto Queiroz">
+
+        <meta name="Viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="imagens/LoboFavicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/calculadora.css">
+    </head>
+    <body>
+
+        
+       <main>
+        <div class='centraliza'>
+            <div class='container'>
+                <button class='display' type='number' value='0' id='display1'>0</button>
+                <button class='display' type='number' value='0' id='display2'>0</button>
+                <button class='display' type='number' value='0' id='display3'>0</button>
+                <button class='display' type='number' value='0' id='display0'>0</button>
+                <div class='botoes'>
+                    <button type='button' class='numero' onclick="addNumeroDisplay('1')">1</button>
+                    <button type='button' class='numero' onclick="addNumeroDisplay('2')">2</button>
+                    <button type='button' class='numero' onclick="addNumeroDisplay('3')">3</button>
+                    <button type='button' class='numero' onclick="addNumeroDisplay('4')">4</button>
+                    <button type='button' class='numero' onclick="addNumeroDisplay('5')">5</button>
+                    <button type='button' class='numero' onclick="addNumeroDisplay('6')">6</button>
+                    <button type='button' class='numero' onclick="addNumeroDisplay('7')">7</button>
+                    <button type='button' class='numero' onclick="addNumeroDisplay('8')">8</button>
+                    <button type='button' class='numero' onclick="addNumeroDisplay('9')">9</button>
+                    <button type='text' class='operacao' onclick="armazenaOperacao('-')">-</button>
+                    <button type='button' class='numero' onclick="addNumeroDisplay('0')">0</button>
+                    <button type='text' class='operacao' onclick="armazenaOperacao('+')">+</button>                    
+                    <button type='text' class='operacao' onclick="armazenaOperacao('/')">/</button>
+                    <button type='text' class='operacao' onclick="armazenaOperacao('*')">*</button>
+                    <button type='text' class='operacao reset' onclick="limpa()">C</button>
+                    <button type='text' class='operacao igual' onclick="calcula('*')">=</button>
+                </div>
+            </div>
+        </div> 
+       </main>
+
+    </body>
+    <footer>
+        <br>
+        <br>
+        <address> Voce pode entrar em contato com o autor desta página através do e-mail: <a href="mailto:devhumbertoqueiroz@gmail.com">devhumbertoqueiroz@gmail.com</a>.<br>
+            Se encontrar qualquer bug, por favor <a href="mailto:devhumbertoqueiroz@gmail.com">contate o administrador do site</a>.<br>
+        </address>
+    </footer>
+    <script src="javascript/calculadora.js">
+    </script>
+
+</html>

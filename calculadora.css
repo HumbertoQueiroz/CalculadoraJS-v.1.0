@@ -1,0 +1,84 @@
+.centraliza{
+    display: flex;
+    justify-content: center;
+}
+.container {
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 25%;
+    background-color: rgba(169, 169, 169, 0.308);
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 350px;
+}
+.display{
+    width: 70%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-weight: bolder;
+    font-size: large;
+    text-align: end;   
+}
+
+
+
+#display2{
+   
+}
+
+
+#display3{
+ 
+}
+
+#display0{
+ display: none;  
+}
+
+.botoes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: auto;
+    width: 80%;
+    
+}
+
+.numero, .operacao{
+    width: 23%;
+    height: 40px;
+    margin: 5px;
+    font-size: medium;
+    border: solid 1px black;
+    border-radius: 3px;
+}
+
+.numero:hover, .operacao:hover{
+cursor: pointer;
+}
+
+.reset{
+    background-color: rgba(220, 20, 60, 0.705);
+    color: white;
+    border-radius: 3px;
+}
+
+.operacao{
+    background-color: rgba(50, 87, 155, 0.5);
+    color: white;
+}
+
+address{
+    text-align: center;
+}
+
+.igual{
+    background-color: rgba(255, 166, 0, 0.61);
+    font-weight: bold;
+}
