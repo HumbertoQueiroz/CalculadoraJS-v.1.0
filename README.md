@@ -6,7 +6,7 @@ Eu sou `Humberto Queiroz` desenvolvedor Web Front-End, estudo por conta própria
 
 US - I'm `Humberto Queiroz` Web Front-End developer, I've been studying programming for 2 years on my own, I'm taking the Technical course in Systems Development Analysis-TADS at IFMT and I have my own website hosted on Github.
 
-##Venha conhecer meus projetos / Come see my projects
+## Venha conhecer meus projetos / Come see my projects
 
 Acesse meu site e conheça mais sobre mim e [projetos que já desenvolvi](https://humbertoqueiroz.github.io/).
 
